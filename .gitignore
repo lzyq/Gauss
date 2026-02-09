@@ -1,0 +1,29 @@
+# --- Python 相关 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+
+# --- 操作系统相关 (针对你多系统办公的习惯) ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- 编辑器相关 (针对你使用的 Obsidian 或其他 IDE) ---
+.idea/
+.vscode/
+*.swp
+.obsidian/workspace.json  # 建议忽略 Obsidian 的工作区状态，避免 Git 同步冲突
+
+# --- 敏感信息 ---
+*.log
+auth.json
+config.yaml # 如果包含密钥，请忽略
